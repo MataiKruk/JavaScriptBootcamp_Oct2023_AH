@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ee7778;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 40em;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: #808080;
+    padding-bottom: 1em;
+    font-weight: normal;
+}
+
+div {
+    background-color: #ededed;
+    padding: 3em 5em;
+    text-align: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"],[type="password"] {
+    border: #d6d6d6 2px solid;
+    margin-bottom: 1.5em;
+    padding: 1.5em;
+    width: 35em;
+}
+
+::placeholder {
+    color: #afb0af;
+}
+
+button {
+    background-color: #7dd9d5;
+    border: none;
+    padding: 15px 45px;
+    color: white;
+    margin: 2em, auto;
+    text-transform: uppercase;
+}
+
+label {
+    width: 200px;
+    padding-right: 74%;
+    color: #afb0af;
+    vertical-align: middle;
+}
+
+.checkbox {
+    width: auto;
+    scale: 200%;
+    margin: 15px;
+    outline: 1px solid #d7d7d7;
+}
+
