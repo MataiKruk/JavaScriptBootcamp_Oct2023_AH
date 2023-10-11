@@ -86,15 +86,15 @@ footer {
     left: 0;
 }
 
-footer > p {
+footer p {
     padding: 0.5em;
 }
 
-footer > nav {
+footer nav {
     flex-direction: row;
 }
 
-footer > nav > a {
+footer a {
     padding: 0;
     padding: 0.5em;
 }
@@ -138,7 +138,7 @@ footer > nav > a {
     .circle1, .circle2, .circle3 {
         display: block;
     }
-
+    
     .circle3 {
         position: relative;
         scale: 150%;
