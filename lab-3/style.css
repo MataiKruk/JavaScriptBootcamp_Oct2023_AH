@@ -52,24 +52,18 @@ blockquote {
 .circle3 {
     border-radius: 50%;
     background: rgba(247, 136, 167, 0.6);
-    width: 100px;
-    height: 100px;
     display: none;
 }
 
 .circle2 {
     border-radius: 50%;
     background: rgba(247, 193, 162, 0.7);
-    width: 100px;
-    height: 100px;
     display: none;
 }
 
 .circle1 {
     border-radius: 50%;
     background: rgba(207, 130, 213, 0.6);
-    width: 100px;
-    height: 100px;
     display: none;
 }
 
@@ -141,23 +135,26 @@ footer a {
     
     .circle3 {
         position: relative;
-        scale: 150%;
-        top: 7.5em;
-        right: 10em;
+        height: 12em;
+        width: 12em;
+        top: 7em;
+        right: 12em;
     }
 
     .circle2 {
         position: relative;
-        scale: 100%;
-        top: 5em;
-        right: 6em;
+        height: 8em;
+        width: 8em;
+        top: 2em;
+        right: 4.5em;
     }
 
     .circle1 {
         position: relative;
-        scale: 75%;
-        right: 5em;
-        bottom: 5em;
+        height: 6em;
+        width: 6em;
+        right: 3em;
+        bottom: 10em;
     }
 
 }
