@@ -1,6 +1,6 @@
 let firstName = "Matai";
 let lastName = "Kruk";
-fullName = firstName + " " + lastName;
+const fullName = firstName + " " + lastName;
 console.log(fullName);
 let population = 634464;
 console.log(population);
