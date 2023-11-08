@@ -13,3 +13,9 @@ for(i=1;i<=5;i++) {
 for(i=0;i<=4;i++) {
     console.log(i)
 }
+
+function f(a) {
+    let asd = 1;
+}
+let asd = 1;
+console.log(asd);
