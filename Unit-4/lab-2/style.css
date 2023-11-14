@@ -1,0 +1,49 @@
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #ecebeb;
+    display: flex;
+    justify-content: end;
+    border-bottom: 2px solid lightgrey;
+    align-items: center;
+}
+
+main {
+    padding: 1em;
+}
+
+header > button {
+    background-color: #ecebeb;
+    border: none;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+button:hover {
+    background-color: lightgrey;
+}
+
+#menuBox {
+    background-color: #ecebeb;
+    flex-direction: column;
+    position: absolute;
+    border: 2px solid lightgrey;
+    top: 38px;
+    right: 0;
+    padding: 0.5em;
+    display: none;
+    animation: fadeIn 1s;
+}
+

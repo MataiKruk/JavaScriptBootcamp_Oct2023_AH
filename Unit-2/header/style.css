@@ -30,6 +30,34 @@ a {
     padding: 0.75rem;
 }
 
+main {
+    padding: 2em;
+
+}
+
+button {
+    background-color: rgba(255,255,255,0.8);
+    color: #551a8b;
+    appearance: none;
+    border: 1px solid black;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+body.dark {
+    background-color: #222;
+    color: rgba(255,255,255,0.8);
+
+}
+
+.dark button {
+    background-color: #551a8b;
+    color: rgba(255,255,255,0.8);
+}
+
 @media screen and (min-width: 768px) {
 
 header {
@@ -43,10 +71,12 @@ header {
 nav {
     padding: 0;
     display: block;
+    font-size: 0.8em;
 }
 
 h1 {
     padding: 0;
+    font-size: 1em;
 }
 
 a {

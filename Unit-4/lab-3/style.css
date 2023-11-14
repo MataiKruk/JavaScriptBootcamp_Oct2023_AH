@@ -1,0 +1,63 @@
+main {
+    display: flex;
+    margin-top: 1em;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.penny {
+    background-color: brown;
+    color: black;
+    border: 2px black solid;
+    min-width: 5vh;
+    height: 5vh;
+    border-radius: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5em;
+    user-select: none;
+}
+
+.nickel {
+    background-color: darkgray;
+    color: black;
+    border: 2px black solid;
+    min-width: 6vh;
+    height: 6vh;
+    border-radius: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5em;
+    user-select: none;
+}
+
+.dime {
+    background-color: gray;
+    color: black;
+    border: 2px black solid;
+    min-width: 4vh;
+    height: 4vh;
+    border-radius: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5em;
+    user-select: none;
+}
+
+.quarter {
+    background-color: lightgray;
+    color: black;
+    border: 2px black solid;
+    min-width: 8vh;
+    height: 8vh;
+    border-radius: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5em;
+    user-select: none;
+}
+
