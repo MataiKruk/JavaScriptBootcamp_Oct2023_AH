@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body > div {
+    background-color: lightgray;
+    border: 2px solid black;
+    margin-bottom: 1rem;
+}
+
+body > div > p {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+body > div > img {
+    width: 50rem
+}
+
+body > div > div > a {
+    float: right;
+    padding-right: 0.5rem;
+}
