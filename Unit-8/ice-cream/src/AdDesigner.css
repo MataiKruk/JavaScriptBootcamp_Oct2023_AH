@@ -1,0 +1,58 @@
+.AdDesigner {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h2 { 
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+  }
+  
+  .ad-display {
+    width: 100px;
+    height: 100px;
+    color:  #000;
+    border: #222 2px solid;
+    background-color: white;
+    box-shadow: 0 0 20px gray;
+  }
+  
+  .ad-designer .ad-display .dark-theme {
+    color:  #fff;
+    border: #222 2px solid;
+    background-color: #222;
+  }
+  
+  #ad-designer button {
+    font-size: 1rem;
+    color: white;
+    background-color: #0e3c7e;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 0 10px 0 0;
+  }
+  
+  .ad-designer .isDarkTheme {
+    background-color: black;
+    color: white;
+  }
+
+.Ad{
+  min-width: 100px;
+  min-height: 100px;
+  color:  #000;
+  border: #222 2px solid;
+  background-color: white;
+  box-shadow: 0 0 20px gray;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.Ad.dark {
+  color:  #fff;
+  border: #222 2px solid;
+  background-color: #222;
+  }
