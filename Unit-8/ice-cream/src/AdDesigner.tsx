@@ -1,6 +1,6 @@
-
 import { useState } from 'react';
 import './AdDesigner.css'; // Make sure to create this CSS file for AdDesigner styling
+
 const AdDesigner = () => {
   const [flavor, setFlavor] = useState<string>('Vanilla');
   const [isDarkTheme, setIsDarkTheme] = useState<boolean>(false);

@@ -11,8 +11,8 @@ function TwoTruthsMK() {
   const [truthsAndLieMK, setTruthsAndLie] = useState(truthsAndLieArrMK);
   const [revealed, setRevealed] = useState(false);
 
-  const revealAnswers = () => {
-    setRevealed(true);
+  const toggleReveal = () => {
+    revealed ? setRevealed(false) : setRevealed(true)
   };
 
   return (
@@ -33,7 +33,7 @@ function TwoTruthsMK() {
           </li>
         ))}
       </ul>
-      <button onClick={revealAnswers}>Reveal</button>
+      <button onClick={toggleReveal}>Reveal</button>
     </div>
   );
 }
